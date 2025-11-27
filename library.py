@@ -1,5 +1,5 @@
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, create_engine
 
 
 Base = declarative_base()
@@ -25,3 +25,5 @@ class Author(Base):
 
     def __repr__(self):
         return f"<Author(name='{self.name}', birth_year={self.birth_year})>"
+
+
