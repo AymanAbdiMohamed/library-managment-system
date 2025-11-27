@@ -1,6 +1,6 @@
-# Library Management System
+# Group 9 Library Management System
 
-Simple Python project demonstrating SQLAlchemy models and Alembic migrations.
+This is a Python project group 9 demonstrating SQLAlchemy models and Alembic migrations.
 
 ## Project overview
 
