@@ -8,10 +8,6 @@ This repository defines basic models for a library (currently `Book` and `Author
 
 ## Quick start
 
-Prerequisites:
-- Python 3.10+
-- `pipenv` (optional) or `python -m venv`
-
 Install and activate dependencies (using `pipenv`):
 
 ```
