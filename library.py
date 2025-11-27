@@ -27,3 +27,8 @@ class Author(Base):
         return f"<Author(name='{self.name}', birth_year={self.birth_year})>"
 
 
+
+book1 = Book(title="1984", author="George Orwell", published_year=1949)
+author1 = Author(name="George Orwell", birth_year=1903)
+print(book1)
+print(author1)
