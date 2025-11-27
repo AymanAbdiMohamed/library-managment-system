@@ -14,3 +14,14 @@ class Book(Base):
 
     def __repr__(self):
         return f"<Book(title='{self.title}', author='{self.author}', published_year={self.published_year})>"
+
+
+class Author(Base):
+    __tablename__ = 'authors'
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String, nullable=False)
+    birth_year = Column(Integer, nullable=True)
+
+    def __repr__(self):
+        return f"<Author(name='{self.name}', birth_year={self.birth_year})>"
